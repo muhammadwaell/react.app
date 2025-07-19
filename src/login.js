@@ -54,7 +54,7 @@ function LoginPage() {
                 <input className="form-check-input" type="checkbox" id="remember" />
                 <label className="form-check-label" htmlFor="remember">Remember me</label>
               </div>
-              <a href="#" className="forgot-password">Forgot password?</a>
+              <a href="/" className="forgot-password">Forgot password?</a>
             </div>
             <button type="submit" className="btn btn-primary">Sign in</button>
             <button type="button" className="btn btn-google">
@@ -68,12 +68,12 @@ function LoginPage() {
             </button>
           </form>
           <div className="signup-link">
-            Don't have an account? <a href="#">Sign up now</a>
+            Don't have an account? <a href="/">Sign up now</a>
           </div>
           <div className="footer">
             <div className="d-flex align-items-center justify-content-center mt-4">
               <div className="logo-icon me-2" style={{ width: '20px', height: '20px', fontSize: '12px' }}>U</div>
-              <a href="#">@unicorn</a>
+              <a href="/">@unicorn</a>
               <span className="ms-3">© Perfect Logic 2021</span>
             </div>
           </div>
